@@ -1,0 +1,5 @@
+valor1 = int(input("Digite 1° valor: "))
+valor2 = int(input("Digite 2° valor: "))
+valor3 = int(input("Digite 3° valor: "))
+valor4 = int(input("Digite 4° valor: "))
+valor5 = int(input("Digite 5° valor: "))
