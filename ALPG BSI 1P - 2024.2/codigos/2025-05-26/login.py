@@ -1,16 +1,9 @@
 def validarNomeUsuario(nomeUsuario):
-    if(len(nomeUsuario) >= 10 and nomeUsuario.find("@") >= 0 and nomeUsuario.find(".") >= 0):
-        return True
-    else:
-        return False
+    return  len(nomeUsuario) >= 10 and "@" in nomeUsuario and "." in nomeUsuario
     
 
-def validarSenha(senha)
-    if(senha.find("@") >= 0  and senha.find("!") >= 0 and len(senha) >= 7):
-        return True
-    else:
-        return False
-
+def validarSenha(senha):
+    return "!" in senha and "@" in senha and len(senha) >= 7
 
 print("Acesso ao sistema")
 print()
